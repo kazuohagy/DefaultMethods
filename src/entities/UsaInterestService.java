@@ -21,8 +21,4 @@ public class UsaInterestService implements InterestService {
         return interest;
     }
 
-    @Override
-    public double payment(double amount, int months) {
-        return amount * Math.pow(1 + interest / 100.0, months);
-    }
 }
